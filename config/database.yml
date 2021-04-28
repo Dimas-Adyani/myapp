@@ -23,3 +23,28 @@ test:
 production:
   <<: *default
   database: db/production.sqlite3
+
+# default: &default
+#    adapter: postgresql
+#    encoding: unicode
+  
+# development:
+#    adapter: postgresql
+#    encoding: unicode
+#    database: library_development
+#    username: rubyuser
+#    password: 
+
+# test:
+#    adapter: postgresql
+#    encoding: unicode
+#    database: library_test
+#    username: rubyuser
+#    password: 
+ 
+# production:
+#    adapter: postgresql
+#    encoding: unicode
+#    database: library_production
+#    username: rubyuser
+#    password: 
