@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'landing/index'
   resources :products
   # get 'home/index'
   get 'home/about'
